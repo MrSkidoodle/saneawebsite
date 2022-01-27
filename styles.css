@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: rgb(252, 252, 220);
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 11px;
+}
+.logo h1 {
+    font-size: 40px;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.links ul li a {
+    text-decoration: none;
+    color: rgb(190, 190, 121);
+    font-size: 28px;
+}
+.links ul li a::after {
+    content: '';
+    display: block;
+    background-color: black;
+    height: 2px;
+    width: 0%;
+    transition: width 400ms ease-in-out;
+}
+.links ul li a:hover::after {
+    width: 100%;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.image img {
+    width: 900px;
+    height: 700px;
+}
+.landing {
+    display: flex;
+}
+.text {
+    padding-left: 150px;
+    padding-top: 150px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(190, 190, 121);
+}
+.text h1 {
+    font-size: 40pt;
+    color: black;
+    font-family: "Roboto Condensed";
+    padding-bottom: 25px;
+}
+.text h3 {
+    font-style: italic;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-bottom: 25px;
+}
+.text img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 25px;
+}
+.text input {
+    padding: 12px 150px 12px 10px;
+    margin-bottom: 25px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    border-radius: 11px;
+}
+.text button {
+    padding: 30px 80px;
+    border: transparent;
+    background-color: rgb(40, 40, 88);
+    border-radius: 10px;
+}
+.text button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+.footer {
+    color: black;
+    height: 150px;
+    font-size: 20;
+}
