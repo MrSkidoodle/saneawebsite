@@ -104,7 +104,10 @@ html {
     font-weight: bolder;
 }
 .footer {
-    color: black;
-    height: 150px;
-    font-size: 20;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(18, 18, 59);
+    margin-top: 90px;
+    text-align: center;
 }
